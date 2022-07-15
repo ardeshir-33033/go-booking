@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>THis is about page</h1>
+
+<p>This came from template: {{index .StringMap "test"}}</p>
+<p> </p>
+</body>
+</html>
+
+
+<!--{{template "base" .}}-->
+
+<!--{{define "content"}}-->
+
+<!--<div class="container">-->
+<!--    <div class="row">-->
+<!--        <div class="col">-->
+<!--            <p class="mt-4">This is a the about page, served from a Go template.</p>-->
+<!--            &lt;!&ndash;            {{if ne (index .StringMap "remote_ip") ""}}&ndash;&gt;-->
+<!--            &lt;!&ndash;            <p>Your IP address is {{index .StringMap "remote_ip"}}</p>&ndash;&gt;-->
+<!--            &lt;!&ndash;            {{else}}&ndash;&gt;-->
+<!--            &lt;!&ndash;            <p>I don't know your ip yet. Go to the home page, and then come back.</p>&ndash;&gt;-->
+<!--            &lt;!&ndash;            {{end}}&ndash;&gt;-->
+
+<!--            &lt;!&ndash;            <p>The CSRF Token is {{.CSRFToken}}</p>&ndash;&gt;-->
+<!--            &lt;!&ndash;            <p>The hidden field is below</p>&ndash;&gt;-->
+<!--            &lt;!&ndash;            <p>{{csrf_field .CSRFToken}}</p>&ndash;&gt;-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<!--{{end}}-->
